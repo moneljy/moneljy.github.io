@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "Text Analysis"
-subtitle: ""
+subtitle: "Tone in Financial Disclosures"
 date: 2022-05-14 10:45:13 -0400
 background: '/img/posts/06.jpg'
 ---

@@ -19,11 +19,14 @@ background: '/img/posts/robo-advisor.png'
 ### 1. Introduction <br>
 The finance industry continues to adopt new technologies to provide financial services more economically and efficiently. One service that achieves this is the robo-advisor. Robo-advisors are digital platforms that help small investors receive simple and accessible asset management services for financial planning using automated algorithms. For example, Bank of America requires $25,000 to open an account with a personal financial advisor but only $5,000 with a robo-advisor. Additionally, robo-advisors provide financial advice at a much lower cost compared to traditional advisory services. For example, a fully automated robo-advisor charges a fee of up to 0.25% of managed assets, while a traditional human-advisor fee is more than 0.75% and may reach 1.5% (Lopez, Babcic and De La Ossa, 2015). Because of these advantages, the robo-advisor market is steadily expanding as shown in Figure 1. The industry is still in the early growth stages but has enormous potential.
 
-[Figure 1]
+**Figure 1: Market Growth Trend of Robo-Advisor** <br>
+_Note_: Shows the assets under management (AUM) of the robo-advisor provided by Statista. The AUM of the robo-advisor industry in 2022 is projected to be $1.66 trillion. The AUM is estimated to grow at an annual rate of 14.19% and to reach $3.22 trillion in 2027.
+![robo-fig1](/img/posts/robo-fig1.png)
 
 Robo-advisor services are composed of several processes, as shown in Figure 2. Academic studies should be conducted in each of those fields to promote and guide the development of the automated processes offered. This report organizes robo-advisor processes into six categories. Within each category the current problems are examined and future directions suggested. 
 
-[Figure 2]
+**Figure 2: Processes of a Robo-Advisor**
+![robo-fig2](/img/posts/robo-fig2.png)
 
 ### 2. Individual Risk Tolerance <br>
 Foerster, Linnainmaa, Melze and Previtero (2017) showed that financial advisors exert considerable influence over customers’ asset allocations but have limitations in providing customized services. As personalization is key for robo-advisors, understanding individual risk tolerance is essential.

@@ -3,7 +3,7 @@ layout: post
 title: "Robo Advisor"
 subtitle: "What's Next"
 date: 2022-05-14 10:45:13 -0400
-background: '/img/posts/robo_advisor.png'
+background: '/img/posts/robo-advisor.png'
 ---
 
 <script type="text/x-mathjax-config">
@@ -17,8 +17,6 @@ background: '/img/posts/robo_advisor.png'
 <script src="//cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML"></script>
 
 ### 1. Introduction <br>
-
-**1.1 Literature Review** <br>
 The finance industry continues to adopt new technologies to provide financial services more economically and efficiently. One service that achieves this is the robo-advisor. Robo-advisors are digital platforms that help small investors receive simple and accessible asset management services for financial planning using automated algorithms. For example, Bank of America requires $25,000 to open an account with a personal financial advisor but only $5,000 with a robo-advisor. Additionally, robo-advisors provide financial advice at a much lower cost compared to traditional advisory services. For example, a fully automated robo-advisor charges a fee of up to 0.25% of managed assets, while a traditional human-advisor fee is more than 0.75% and may reach 1.5% (Lopez, Babcic and De La Ossa, 2015). Because of these advantages, the robo-advisor market is steadily expanding as shown in Figure 1. The industry is still in the early growth stages but has enormous potential.
 
 [Figure 1]
@@ -27,7 +25,7 @@ Robo-advisor services are composed of several processes, as shown in Figure 2. A
 
 [Figure 2]
 
-** 2. Individual Risk Tolerance** <br>
+### 2. Individual Risk Tolerance <br>
 Foerster, Linnainmaa, Melze and Previtero (2017) showed that financial advisors exert considerable influence over customers’ asset allocations but have limitations in providing customized services. As personalization is key for robo-advisors, understanding individual risk tolerance is essential.
 
 Risk tolerance is the maximum degree of uncertainty that an individual is willing to accept when making financial decisions (Grable, 2008). It is a critical factor for individual customers when making various financial decisions as well as a key intrinsic variable in financial planning, investment suitability analysis, and customer decision-making structures. Financial risk tolerance greatly influences both short- and long-term financial decisions, such as purchasing decisions and saving for retirement. However, robo-advisors identify the risk tolerance of investors through one-size-fits-all questionnaires, which are too simple and do not always provide a comprehensive overview of a client’s financial situation and characteristics. Hence, they are limited in understanding the customers’ tendencies.
@@ -37,39 +35,31 @@ Noting its importance, economists have long conducted studies to understand indi
 Additionally, poor health can affect various factors that may impact portfolio composition, including the utility of consumption, risk aversion, and labor returns (Rosen and Wu, 2004). Hence, health status is also an important factor in understanding individual risk tolerance. Despite this importance, research on the effects of an individual's health status on their independent risk tolerance has only relatively recently begun to draw attention. For example, Addoum, Korniotis and Kumar (2017) revealed that height and obesity influence the portfolio choices of investors, and Døskeland and Kvaerner (2022) showed that a history of cancer diagnosis increases risk aversion.
 
 In this regard, future research challenges relate to individual health and risk tolerance. For example, there might be an association between risk tolerance and environmental diseases, such as rhinitis, asthma, and atopy, the prevalence of which has been rapidly increasing recently due to climate change and environmental change. Patients with environmental diseases are more sensitive to the weather; Bassi, Colacito and Fulghieri (2013) showed that weather affects individual risk tolerance. In addition, since these diseases are chronic and require funds for continuous treatment and management, a significant relationship may exist between investment style and the presence or absence of disease. As such, efforts are required to study individual risk tolerance from more varied perspectives.
-
-<br><br>
-
-** 3. Portfolio** <br>
+<br>
+### 3. Portfolio <br>
 Portfolio optimization, such as modern portfolio theory (MPT) and Black-Litterman (BL), is a representative methodology for portfolio construction (Markowitz, 1952; Black and Litterman, 1990). Many robo-advisor companies structure their portfolios according to this methodology. For instance, Wealthfront, one of the largest robo-advisor companies, uses the MPT, while Betterment uses the BL model. Arguably, portfolio optimization provides the most intuitive method of finding the best portfolio to maximize return on risk. However, the model is highly sensitive to input values, that is, covariance matrix and expected future return. Moreover, the input itself is difficult to know (Michaud, 1989; Best and Grauer, 1991; Chopra and Ziemba, 2013). Therefore, if no constraints or additional solutions are applied, portfolio diversification effects cannot be expected because the weight is concentrated in a small number of stocks. Although many studies have sought to identify and solve the problems of the portfolio optimization method (Britten-Jones, 1999; Jagannathan and Ma, 2003; Ledoit and Wolf, 2003; Ban, El Karoui and Lim, 2018), they only mitigate the aforementioned problems to a limited degree; the fundamental problems remain unresolved. 
 
 Recently, a new investment philosophy called goal-based investing (GBI) has begun gaining popularity with the emergence of automated investment systems and customized services. GBI is a personal goal-oriented investment strategy that differs from conventional strategies that focus only on market behavior (Sironi, 2016). It places individuals at the center of the investment decision-making process and considers the real risk faced by individuals to be not market volatility but the probability of falling short of individual goals (Sironi, 2016). Traditional investments aim to maximize expected returns, while GBI aims to maximize the probability of achieving individual goals. The GBI philosophy thus fits well with robo-advisor service offerings, which focus on personalization. Though attempts are being made to introduce GBI into practice, it is in the early stages, and research on GBI remains scarce. Therefore, studies on an appropriate methodology for GBI are needed.
-
-<br><br>
-** 4. Rebalancing** <br>
+<br>
+### 4. Rebalancing <br>
 Over time, the value of assets may change according to market performance. Therefore, without rebalancing, a portfolio may no longer match the acceptable range of risk over time, even if the initial composition is optimal. It may seem harmless to allocate more shares than initially planned when stock prices rise. However, no market rally lasts forever, and if the trend changes, the portfolio will become overexposed during a decline. Therefore, after setting the target portfolio, the assets should be rebalanced. While the power of rebalancing to improve returns and reduce risks is generally recognized, relatively little research has focused on the best way to implement rebalancing policies (Sun, Fan, Chen, Schouwenaars and Albota, 2006; Masters, 2013; Kimball, Shapiro, Shumway and Zhang, 2020).
-<br><br>
-
-** 5. Market Microstructure And Optimal Execution** <br>
+<br>
+### 5. Market Microstructure And Optimal Execution <br>
 
 Of late, research has been increasingly focusing on the market microstructure, where potential investor demand is ultimately reflected in the form of transactions (Madhavan, 2000).
 
 Understanding market microstructure is essential for executing orders, especially in large volumes. Large buy orders can unexpectedly raise market prices, resulting in more expensive purchases. As such, transactions affect market prices (i.e., price impact), and this can greatly influence investment returns (Tsoukalas, Wang and Giesecke, 2019). 
 
 However, managing the price impact is challenging because it requires a model for the individual transactions of each market participant. Large technology development and human resource expenditure are also required. Nevertheless, technological advances and high-frequency trading are areas that require continuous research because they rapidly alter the market microstructure (O'Hara, 2015).
-
-<br><br>
-
-** 6. Human-Computer Interaction** <br>
+<br>
+### 6. Human-Computer Interaction <br>
 In the service industry, interaction with customers is essential for businesses to feel the pulse of their customers and suitably serve them, which will lead to increased profitability. According to Calmon, Ciocan and Romero (2021), customers’ goodwill toward a platform is dynamic and can change depending on the quality of their past interactions, which is closely related to the service's revenue. Additionally, Hathaway, Emadi and Deshpande (2022) stated that, to improve revenue and customer service, the company must provide personalized services based on customer records. They argued that inquiries or complaints can be prevented at an individual level through such services.
 
 Personalized customer interaction is also a key area for robo-advisors. A robo-advisor should serve not only as an advisor but also make automated investment decisions. Therefore, interacting with clients digitally is central to robo-advisor services. Capponi, Olafsson and Zariphopoulou (2022) showed that the success of a robo-advisor service depends highly on its ability to provide personalized financial services. To achieve this, they suggested that information from customers should be properly received and used for communication.
 
 Therefore, research evaluating whether robo-advisors sufficiently play the advisor role through personalized customer interactions is first needed, starting with the design of robo-advisor apps.
-
-<br><br>
-
-** 7. Corporates and Financial Markets** <br>
+<br>
+### 7. Corporates and Financial Markets <br>
 
 Understanding corporates and financial markets is important for making wise investment decisions, prompting numerous studies to analyze companies and financial markets from various perspectives.
 
@@ -80,9 +70,7 @@ The concept of “attention” in deep learning is being increasingly recognized
 Additionally, researchers have long attempted to analyze textual data contained in various financial disclosures. A well-known example of this is sentiment analysis. Ingram and Frazier (1983) analyzed the relationship between the narrative data of accounting reports and corporate performance. Since then, researchers have highlighted the importance of sentiment analysis of various narrative data such as financial reports, CEOs’ letters to shareholders, and audit reports, with active related research appearing in top accounting and financial journals (Kothari, Li and Short, 2009; Feldman, Govindaraj, Livnat, and Segal, 2010; Bochkay, Hales and Chava, 2020). However, according to Bochkay, Brown, Leone and Tucker (2022), 97.4% of the literature on sentiment analysis published in top-level accounting journals in the last decade use the dictionary method, and few studies have used deep learning-based sentiment analysis. ML methods consider context, unlike the dictionary method, and the accuracy of sentiment analysis increases from 73.49% to 82.62% on average when switching from the dictionary method to traditional machine learning and from 82.62% to 87.18% when switching from traditional machine learning to deep learning (Hartmann, Heitmann, Siebert and Schamp, 2022). Therefore, more accurate analysis can be expected when NLP technology is applied to textual data analysis in the accounting and financial fields.
 
 Another approach is behavioral finance, or applying psychology to financial phenomena. Market behavior has many commonalities with the individual decision-making process, and scholars perceive that the market does not always show rational behavior, just as all humans are not rational (De Bondt and Thaler, 1985). Behavioral finance also has a long research history, and many studies continue to attempt to interpret financial market anomalies in terms of behavioral finance (Barberis and Thaler, 2003; Ham, Ryu and Webb, 2022). While many financial market factors have already been revealed in previous examinations, current knowledge may only be the tip of the iceberg, and there will be countless factors required to explain the market. Therefore, future research should focus on providing knowledge to better understand companies and financial markets.
-
-<br><br>
-
+<br>
 ### References
 Addoum, J., Korniotis, G., & Kumar, A. (2017). Stature, obesity, and portfolio choice. Management Science, 63(10), 3393-3413.
 

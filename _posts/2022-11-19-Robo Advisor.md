@@ -3,7 +3,7 @@ layout: post
 title: "Robo Advisor"
 subtitle: "What's Next"
 date: 2022-05-14 10:45:13 -0400
-background: '/img/posts/06.jpg'
+background: '/img/posts/robo_advisor.png'
 ---
 
 <script type="text/x-mathjax-config">

@@ -3,7 +3,7 @@ layout: post
 title: "Rebalancing"
 subtitle: "Optimal rebalancing using deep reinforcement learning"
 date: 2023-01-07 10:45:13 -0400
-background: '/img/posts/esg.jpg'
+background: '/img/posts/rebalancing.jpg'
 ---
 
 <!-- <script type="text/x-mathjax-config">

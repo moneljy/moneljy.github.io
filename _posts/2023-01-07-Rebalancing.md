@@ -2,7 +2,7 @@
 layout: post
 title: "Rebalancing"
 subtitle: "Optimal rebalancing using deep reinforcement learning"
-date: 2022-07-02 10:45:13 -0400
+date: 2023-01-07 10:45:13 -0400
 background: '/img/posts/rebalancing.jpg'
 ---
 
